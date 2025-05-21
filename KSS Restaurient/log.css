@@ -1,0 +1,72 @@
+h2{
+    animation: gradientText 2s infinite;
+}
+@keyframes gradientText{
+    0%{
+        color: rgb(225, 248, 16);
+    }
+    25%{
+        color: rgb(235, 12, 12);
+    }
+    50%{
+        color: rgb(243, 237, 240);
+    }
+    100%{
+        color: rgb(233, 131, 47);
+    }
+}
+
+
+body{
+    background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg');
+    background-size: cover;
+   
+}
+
+.hero{
+    color: rgb(189, 170, 135);
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: large;
+    background-image: url('5w.jpeg');
+    background-size: cover;
+    text-align: center;
+    border: 5px solid rgb(8, 3, 17);
+    padding: 20px;
+    width: 16rem;
+   
+    margin-top: 150px;
+    height: 300;
+
+   
+    
+}
+
+form{
+    
+    
+    justify-content: center;
+    padding-left: 520px;
+    
+    padding-right: 200;
+}
+button{
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    font-size: small;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: wheat;
+}
+
+button:hover{
+    background-color: aqua;
+    width: 75px;
+    height: 33px;
+    color: wheat;
+}
+

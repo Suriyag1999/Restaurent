@@ -1,0 +1,147 @@
+.int{
+    color: yellow;
+    text-align: center;
+    font-weight: bolder;
+    animation: gradientText 5s infinite;
+}
+
+@keyframes gradientText{
+    10%{
+        color: wheat;
+    }
+    30%{
+        color: blueviolet;
+    }
+    70%{
+        color: brown;
+    }
+    100%{
+        color: chocolate;
+    }
+}
+.line{
+    border-radius: 200px;
+    border-style: dotted;
+    border-color: beige;
+
+}
+.jun{
+    text-align: center;
+    color: aqua;
+    font-size: x-large ;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: gradientText 600ms infinite;
+
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.pt{
+    
+    display: grid;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+.pt:hover{
+    background-color: rgb(196, 196, 16);
+    width: 280px;
+    height: 280px;
+}
+.tin{
+    margin: 50px;
+    font-weight: 700;
+    padding-left: 50px;
+    text-align: center;
+    justify-items: center;
+    text-transform: uppercase;
+    width: 270px;
+    color: wheat;
+    animation: gradientText3 5s infinite;
+    
+}
+@keyframes gradientText3{
+    0%{
+        color: red;
+    }
+    25%{
+        color: aqua;
+    }
+    50%{
+        color: rgb(248, 151, 5);
+    }
+    100%{
+        color: brown;
+    }
+    
+}
+.container{
+    display: grid;
+}
+.row{
+    display:flex;
+    
+}
+.column{
+    width: 300px;
+}
+.but{
+    margin-left: 50px;
+    background-color: rgb(233, 229, 229);
+    width: 270px;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    margin-left: 60px;
+    font-style: italic;
+    font-weight: 900;
+}
+.v3{
+    margin-left: 30px;
+    border-right: 3px solid rgb(245, 243, 241);
+    margin-right: 20px;
+    
+}
+.but:hover{
+    background-color: aqua;
+    color: rgb(228, 11, 112);
+    width: 250px;
+    height: 20px;
+}
+
+.column{
+    width: 1000px;
+    text-align: center;
+    margin-top: 100px;
+}
+a{
+    color: wheat;
+    text-align: center;
+}
+nav{
+    text-align: right;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.view{
+    margin-top: 100px;
+    margin-left: 650px;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    font-weight: bolder;
+    font-size: medium;
+}
+.view:hover{
+    background-color: rgb(14, 18, 243);
+    color: rgb(243, 240, 235);
+}

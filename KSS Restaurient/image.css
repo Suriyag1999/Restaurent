@@ -1,0 +1,120 @@
+.int{
+    color: yellow;
+    text-align: center;
+    font-weight: bolder;
+    animation: gradientText 1s infinite;
+}
+.line{
+    border-radius: 200px;
+    border-style: dotted;
+    border-color: rgb(121, 236, 240);
+
+}
+
+@keyframes gradientText{
+    0%{
+        color: aquamarine;
+    }
+    25%{
+        color: rgb(10, 111, 245);
+    }
+    50%{
+        color: rgb(241, 14, 120);
+    }
+    100%{
+        color: rgb(14, 245, 91);
+    }
+}
+
+body{
+    background: radial-gradient(rgb(235, 235, 120),rgb(5, 179, 236));
+    
+}
+
+nav{
+    color: wheat;
+    text-align: right;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+    
+
+.pt{
+    
+    display: grid;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+.pt:hover{
+    background-color: rgb(196, 196, 16);
+    width: 280px;
+    height: 280px;
+}
+
+.container{
+    display: grid;
+}
+.row{
+    display:flex;
+    
+}
+.column{
+    width: 300px;
+}
+h3{
+    text-transform: uppercase;
+    animation: gradientText2 2s infinite;
+}
+h5{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+
+.column{
+    width: 1000px;
+    text-align: center;
+    margin-top: 100px;
+}
+button{
+    animation: gradientText3 1s infinite ;
+}
+button:hover{
+    width: 100px;
+}
+
+@keyframes gradientText2{
+    0%{
+        color: red;
+    }
+    25%{
+        color: aqua;
+    }
+    50%{
+        color: blanchedalmond;
+    }
+    100%{
+        color: blueviolet;
+    }
+}
+@keyframes gradientText3{
+    0%{
+        color: rgb(153, 239, 245);
+    }
+    25%{
+        color: rgb(248, 128, 188);
+    }
+    50%{
+        color: rgb(241, 150, 12);
+    }
+    100%{
+        color: rgb(185, 233, 11);
+    }
+}
+.et{
+    border-color: rgb(255, 10, 132);
+    border-style: dotted;
+}

@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    color: violet;
+    text-transform: uppercase;
+    background-color: wheat;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+body{
+    background-image: url('images/bmn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.land{
+    border-color: aqua;
+    border-style: dotted;
+    margin: 30px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(240, 236, 23);
+}
+nav{
+    text-align: right    
+}
+.wh{
+    color: rgb(19, 245, 207);
+    font-weight: 800;
+    font-style: italic;
+}
+.para{
+    color: rgb(97, 11, 236);
+    font-weight: 800;
+    font-size: medium;
+    text-align: center;
+    padding:20px ;
+}
+button{
+    background-color: wheat;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgb(238, 159, 14);
+    color: beige;
+    height: 35px;
+}
+.pop{
+    color: rgb(247, 11, 51);
+    text-transform: uppercase;
+    font-size: larger;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imi{
+    text-align: center;
+    margin-left: 600px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size:small;
+    width: 150px;
+    background-color: aqua;
+}
+.imi:hover{
+    color: wheat;
+    background-color: blueviolet;    
+    width: 170px;
+    height: 30px;
+}

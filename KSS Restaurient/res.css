@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+   
+    text-transform: uppercase;
+    color: rgb(245, 9, 154);
+}
+body{
+    background-image: url('https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?cs=srgb&dl=pexels-igor-starkov-233202-1307698.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pop{
+   
+    margin: 200px;
+    padding: 50px;
+    text-transform: uppercase;
+    animation: gradientText 1s infinite;
+    background-color: wheat;
+    border-radius: 1px;
+    border-color: rgb(179, 219, 245);
+    border-style: double;
+    font-size: large;
+    font-weight: bolder;
+}
+@keyframes gradientText{
+    0%{
+        color: rgb(9, 187, 247);
+    }
+    50%{
+        color: rgb(238, 21, 209);
+    }
+    100%{
+        color: rgb(43, 8, 240);
+    }
+}
